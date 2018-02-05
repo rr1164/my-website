@@ -1,0 +1,477 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" intial-scale="1.0">
+    <title>food</title>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css"
+    rel="stylesheet">                    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<link href="1.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Client Testimonials Carousel</title>
+  <script type="text/javascript" src="https://fast.fonts.net/jsapi/33e424f6-3f70-4c68-93b2-29f9f67b2b87.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Slider Jquery</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+
+	<script src="js/jquery-3.1.0.min.js">
+	</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<style>
+body {  font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; text-align:center; background:url(../background2.png)}
+p{  color:#525252;  font-size:12px; }
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	transition:0.1s linear;
+	transition-property:width, background-color;
+}
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+}
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+messi {  font-family: Helvetica, Arial, sans-serif;  text-align: center; font-size:50px; margin-top:60px; color:#fff;
+	  text-shadow: 2px 2px 0px rgba(255,255,255,.7), 5px 7px 0px rgba(0, 0, 0, 0.1);
+}
+</style>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},4000);
+	});
+});
+</script>
+</head>
+
+<body>
+
+    <header dir="rtl">
+        <ul class="nav">
+  <li class="navItem"><a href="foodorders/index.html">اطلب الان</a></li>
+  <li class="navItem"><a href="juices.html">عصيرات هني</a></li>
+  <li class="navItem"><a href="#slider">عملائنا الكرام</a></li>
+  <li class="navItem"><a href="#really">فريقنا</a></li>
+  <li class="navItem"><a href="#citi">فرعنا</a></li>
+  <li class="navItem"><a href="#ourapp">كيف تطلب؟</a></li>
+</ul>
+    <div class="hero">
+        <h1 class="messi1">مرحبا بك في 
+            واحد من افضل مطاعم </h1>
+
+
+        </div>
+
+    </header>
+
+
+
+
+    <section class="mobile">
+    <h3 class="text-center" id="ourapp">كيف تطلب</h3>
+        <div class="container">
+        <div class="row">
+        <div class="col-md-6">
+            <div class="pic">
+
+            </div>
+        </div>
+            <div class="col-md-6">
+
+            <div class="works-step">
+
+            <div>1</div>
+                <p>
+                تطلب الوجبات التي تريدها و تصورها من الجوال او اللابتوب
+                </p>
+                <div>2</div>
+                <p>
+                ترسلنا ايميل بعنوانك و صور الطلب علي هذ الايميل:
+                </p>
+                <div>3</div>
+                <p>
+               تنتظر حتي نرد عليك او ياتيك الطلب
+                </p>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="cities">
+    <h3 class="text-center" id="citi">نحن حاليا في هذه الدوله</h3>
+        <div class="container">
+    <div class="row">
+
+
+        <div class="col-md-3">
+        <img src="img/china.jpg">
+                <h4>الصين</h4>
+                <p><i class="fa fa-cog"> شارع الملك خالد</i></p>
+                 <p><i class="fa fa-cog">اكثر من 100 عميل</i></p>
+			<p><i class="fa fa-cog">اكثر من 100 وجبة</i></p>
+        </div> <div class="col-md-3">
+        <img src="img/sanfrancisco.jpg">
+                <h4>سان فرانسيسكو</h4>
+                <p><i class="fa fa-cog"> شارع الملك خالد</i></p>
+                 <p><i class="fa fa-cog">اكثر من 100 عميل</i></p>
+			<p><i class="fa fa-cog">اكثر من 100 وجبة</i></p>
+        </div> <div class="col-md-3">
+        <img src="img/egypt.jpg">
+                <h4>مصر</h4>
+                <p><i class="fa fa-cog"> شارع الملك خالد</i></p>
+                 <p><i class="fa fa-cog">اكثر من 100 عميل</i></p>
+			<p><i class="fa fa-cog">اكثر من 100 وجبة</i></p>
+        </div>
+      <div class="col-md-3">
+        <img src="img/khobar.jpg">
+                <h4>الخبر</h4>
+                <p><i class="fa fa-cog"> شارع الملك خالد</i></p>
+                 <p><i class="fa fa-cog">اكثر من 100 عميل</i></p>
+			<p><i class="fa fa-cog">اكثر من 100 وجبة</i></p>
+        </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/jquery-2.1.1.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/masonry.pkgd.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/jquery.flexslider-min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/main.js"></script>
+    <h6 class="text-center">تعليقات المستخدمين</h6>
+    <div class="cd-testimonials-wrapper cd-container" id="slider">
+	<ul class="cd-testimonials">
+		<li>
+			<p>I’ve made several purchases from Tamarkin including a minty Leicameter. Each time, I’ve been treated like an old friend. No matter if I call or email, no matter how busy the shop is, they are patient, helpful and appreciative of my business. I also would have fumbled around forever learning to load film into an M camera if it weren’t for Dan’s great “how to Leica” videos on You Tube.</p>
+			<div class="cd-author">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/leicame.jpg" alt="Author image">
+				<ul class="cd-author-info">
+					<li>John Smith</li>
+				</ul>
+			</div>
+		</li>
+
+		<li>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ea, perferendis error repudiandae numquam dolor fuga temporibus. Unde omnis, consequuntur.</p>
+			<div class="cd-author">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-2.jpg" alt="Author image">
+				<ul class="cd-author-info">
+					<li>MyName</li>
+				</ul>
+			</div>
+		</li>
+
+		<li>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam totam nulla est, illo molestiae maxime officiis, quae ad, ipsum vitae deserunt molestias eius alias.</p>
+			<div class="cd-author">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-3.jpg" alt="Author image">
+				<ul class="cd-author-info">
+					<li>MyName</li>
+				</ul>
+			</div>
+		</li>
+
+	</ul> <!-- cd-testimonials -->
+
+	<a href="#0" class="cd-see-all">See all</a>
+</div> <!-- cd-testimonials-wrapper -->
+
+<div class="cd-testimonials-wrapper cd-container">
+	<ul class="cd-testimonials">
+		<li>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<div class="cd-author">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-1.jpg" alt="Author image">
+				<ul class="cd-author-info">
+					<li>MyName</li>
+				</ul>
+			</div>
+		</li>
+
+		<li>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ea, perferendis error repudiandae numquam dolor fuga temporibus. Unde omnis, consequuntur.</p>
+			<div class="cd-author">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-2.jpg" alt="Author image">
+				<ul class="cd-author-info">
+					<li>MyName</li>
+				</ul>
+			</div>
+		</li>
+
+		<li>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam totam nulla est, illo molestiae maxime officiis, quae ad, ipsum vitae deserunt molestias eius alias.</p>
+			<div class="cd-author">
+				<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-3.jpg" alt="Author image">
+				<ul class="cd-author-info">
+					<li>MyName</li>
+				</ul>
+			</div>
+		</li>
+
+	</ul> <!-- cd-testimonials -->
+
+	<a href="#0" class="cd-see-all">See all</a>
+</div> <!-- cd-testimonials-wrapper -->
+
+<div class="cd-testimonials-all">
+	<div class="cd-testimonials-all-wrapper">
+		<ul>
+			<li class="cd-testimonials-item">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit totam saepe iste maiores neque animi molestias nihil illum nisi temporibus.</p>
+
+				<div class="cd-author">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-1.jpg" alt="Author image">
+					<ul class="cd-author-info">
+						<li>MyName</li>
+					</ul>
+				</div> <!-- cd-author -->
+			</li>
+
+			<li class="cd-testimonials-item">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore nostrum nisi, doloremque error hic nam nemo doloribus porro impedit perferendis. Tempora, distinctio hic suscipit. At ullam eaque atque recusandae modi fugiat voluptatem laborum laboriosam rerum, consequatur reprehenderit omnis, enim pariatur nam, quidem, quas vel reiciendis aspernatur consequuntur. Commodi quasi enim, nisi alias fugit architecto, doloremque, eligendi quam autem exercitationem consectetur.</p>
+
+				<div class="cd-author">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-2.jpg" alt="Author image">
+					<ul class="cd-author-info">
+						<li>MyName</li>
+					</ul>
+				</div> <!-- cd-author -->
+			</li>
+
+			<li class="cd-testimonials-item">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quibusdam eveniet, molestiae laborum voluptatibus minima hic quasi accusamus ut facere, eius expedita, voluptatem? Repellat incidunt veniam quaerat, qui laboriosam dicta. Quidem ducimus laudantium dolorum enim qui at ipsum, a error.</p>
+
+				<div class="cd-author">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-3.jpg" alt="Author image">
+					<ul class="cd-author-info">
+						<li>MyName</li>
+					</ul>
+				</div> <!-- cd-author -->
+			</li>
+
+			<li class="cd-testimonials-item">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptates officiis tempore quae officia! Beatae quia deleniti cum corporis eos perferendis libero reiciendis nemo iusto accusamus, debitis tempora voluptas praesentium repudiandae laboriosam excepturi laborum, nisi optio repellat explicabo, incidunt ex numquam. Ullam perferendis officiis harum doloribus quae corrupti minima quia, aliquam nostrum expedita pariatur maxime repellat, voluptas sunt unde, inventore.</p>
+
+				<div class="cd-author">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-4.jpg" alt="Author image">
+					<ul class="cd-author-info">
+						<li>MyName</li>
+					</ul>
+				</div> <!-- cd-author -->
+			</li>
+
+			<li class="cd-testimonials-item">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit totam saepe iste maiores neque animi molestias nihil illum nisi temporibus.</p>
+
+				<div class="cd-author">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-5.jpg" alt="Author image">
+					<ul class="cd-author-info">
+						<li>MyName</li>
+					</ul>
+				</div> <!-- cd-author -->
+			</li>
+
+			<li class="cd-testimonials-item">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quia quas, quis illo adipisci voluptate ex harum iste commodi nulla dolor. Eius ratione quod ab!</p>
+
+				<div class="cd-author">
+					<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3393/avatar-6.jpg" alt="Author image">
+					<ul class="cd-author-info">
+						<li>MyName</li>
+					</ul>
+				</div> <!-- cd-author -->
+			</li>
+
+		</ul>
+	</div>	<!-- cd-testimonials-all-wrapper -->
+
+	<a href="#0" class="close-btn">Close</a>
+</div> <!-- cd-testimonials-all -->
+	<div class="container" id="really">
+
+  <div class="row heading">
+    <div class="col-md-6 col-md-offset-3">
+      <h2 class="text-center bottom-line">Meet Our Team</h2>
+      <p class="subheading text-center">Creative Nerds</p>
+    </div>
+  </div>
+
+  <div class="row team-row">
+
+    <div class="col-md-4 col-sm-6 team-wrap">
+      <div class="team-member text-center">
+        <div class="team-img">
+          <img src="http://deothemes.com/envato/enigma/html/img/team_1.jpg" alt="">
+          <div class="overlay">
+            <div class="team-details text-center">
+              <p>
+                Our web design team will spend time with our digital marketing team.
+              </p>
+              <div class="socials mt-20">
+                <a href="https://www.facebook.com/easportsfifa/"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/itvnews"><i class="fa fa-twitter"></i></a>
+                <a href="https://plus.google.com/105442945478799470998"><i class="fa fa-google-plus"></i></a>
+                 <a href="https://www.instagram.com/chelseafc/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h6 class="team-title">John Marshall</h6>
+        <span>Designer</span>
+      </div>
+    </div>
+    <!-- end team member -->
+
+    <div class="col-md-4 col-sm-6 team-wrap">
+      <div class="team-member text-center">
+        <div class="team-img">
+          <img src="http://deothemes.com/envato/enigma/html/img/team_2.jpg" alt="">
+          <div class="overlay">
+            <div class="team-details text-center">
+              <p>
+                Our web design team will spend time with our digital marketing team.
+              </p>
+              <div class="socials mt-20">
+                <a href="https://www.facebook.com/Cristiano/"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/SkyNews"><i class="fa fa-twitter"></i></a>
+                <a href="https://plus.google.com/communities/106141873004326568777"><i class="fa fa-google-plus"></i></a>
+                 <a href="https://www.instagram.com/manchesterunited/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h6 class="team-title">Steve Roberts</h6>
+        <span>Photographer</span>
+      </div>
+    </div>
+    <!-- end team member -->
+
+    <div class="col-md-4 col-sm-6 team-wrap">
+      <div class="team-member last text-center">
+        <div class="team-img">
+          <img src="http://deothemes.com/envato/enigma/html/img/team_3.jpg" alt="">
+          <div class="overlay">
+            <div class="team-details text-center">
+              <p>
+                Our web design team will spend time with our digital marketing team.
+              </p>
+              <div class="socials mt-20">
+                <a href="https://www.facebook.com/RealMadrid/?fref=ts"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/nytimes"><i class="fa fa-twitter"></i></a>
+                <a href="https://plus.google.com/communities/100504771089727060124"><i class="fa fa-google-plus"></i></a>
+                <a href="https://www.instagram.com/liverpoolfc/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h6 class="team-title">Michael Cartney</h6>
+        <span>Designer</span>
+      </div>
+    </div>
+    <!-- end team member -->
+
+  </div>
+</div>
+	<h6 class="neymar">تقييمات الوجبات لدينا</h6>
+
+
+
+
+<body>
+<h1>jQuery & Css Skills Bar</h1>
+
+<div class="skillbar clearfix " data-percent="100%">
+	<div class="skillbar-title" style="background: #d35400;"><span>البروستد</span></div>
+	<div class="skillbar-bar" style="background: #e67e22;"></div>
+	<div class="skill-bar-percent">100%</div>
+</div>
+
+<div class="skillbar clearfix " data-percent="96%">
+	<div class="skillbar-title" style="background: #2980b9;"><span>ناجت</span></div>
+	<div class="skillbar-bar" style="background: #3498db;"></div>
+	<div class="skill-bar-percent">96%</div>
+</div>
+
+<div class="skillbar clearfix " data-percent="97%">
+	<div class="skillbar-title" style="background: #2c3e50;"><span>دجاج مسحب</span></div>
+	<div class="skillbar-bar" style="background: #2c3e50;"></div>
+	<div class="skill-bar-percent">97%</div>
+</div>
+
+<div class="skillbar clearfix " data-percent="95%">
+	<div class="skillbar-title" style="background: #46465e;"><span>سيقان دجاج</span></div>
+	<div class="skillbar-bar" style="background: #5a68a5;"></div>
+	<div class="skill-bar-percent">95%</div>
+</div>
+
+<div class="skillbar clearfix " data-percent="75%">
+	<div class="skillbar-title" style="background: #333333;"><span>العصيرات</span></div>
+	<div class="skillbar-bar" style="background: #525252;"></div>
+	<div class="skill-bar-percent">75%</div>
+</div>
+
+<div class="skillbar clearfix " data-percent="99%">
+	<div class="skillbar-title" style="background: #27ae60;"><span>استربس</span></div>
+	<div class="skillbar-bar" style="background: #2ecc71;"></div>
+	<div class="skill-bar-percent">100%</div>
+</div>
+
+<div class="skillbar clearfix " data-percent="85%">
+	<div class="skillbar-title" style="background: #124e8c;"><span>جمبري</span></div>
+	<div class="skillbar-bar" style="background: #4288d0;"></div>
+	<div class="skill-bar-percent">85%</div>
+</div>
+<a href="index2.html"><h3>اتصل بنا</h3></a>
+
+	</body>
+</html>

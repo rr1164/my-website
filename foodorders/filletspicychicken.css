@@ -1,0 +1,82 @@
+.meal-showcase
+{
+    list-style: none;
+    width:100%;
+     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/burger.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.meal-showcase li
+{
+    display: block;
+    width:25%;
+    float:left;
+}
+
+.meal-photo
+{
+    width:100%;
+    margin:0;
+    overflow: hidden;
+}
+
+.meal-photo img
+{
+    width:100%;
+    height:auto;
+    transform: scale(1.15);
+    transition: all 0.5s;
+}
+
+.meal-photo img:hover
+{
+    transform: scale(1.05);
+}
+
+.meal
+{
+    margin-top:60px;
+}
+.man
+{
+    margin:30px;
+}
+.man1
+{
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+}
+h3
+{
+    text-align: center;
+    font-size: 60px;
+}
+h3:after
+{
+    width: 100px;
+    height: 2px;
+    background-color: #e67e22;
+    display: block;
+    content: "";
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.features h3
+{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-content: center;
+}
+.man
+{
+	color: rebeccapurple;
+}
+ 
